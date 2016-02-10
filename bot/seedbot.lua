@@ -221,6 +221,7 @@ function create_config( )
     "get",
     "broadcast",
     "download_media",
+    "welcome:,
     "invite",
     "all",
     "leave_ban",
@@ -328,97 +329,98 @@ This command will send text to [group_id]
 Commands list :
 
 !kick [username|id]
-You can also do it by reply
+شخص مورد نظر از گروه اخراج میشود
 
 !ban [ username|id]
-You can also do it by reply
+شخص مورد نظر از گروه تحریم میشود
 
 !unban [id]
-You can also do it by reply
+شخص مورد نظر از تحریم خارج شود
 
 !who
-Members list
+لیست اعضا
 
 !modlist
-Moderators list
+لیست کمک مدیر ها
 
 !promote [username]
-Promote someone
+اضافه کردن کمک مدیر
 
 !demote [username]
-Demote someone
+حذف کردن کمک مدیر
 
 !kickme
-Will kick user
+ترک گروه
 
 !about
-Group description
+درباره گروه
 
 !setphoto
-Set and locks group photo
+عوض کردن عکس گروه
 
 !setname [name]
-Set group name
+عوض کردن نام گروه
 
 !rules
-Group rules
+قوانین گروه
 
 !id
-return group id or user id
+ایدی گروه
 
 !help
+راهنما
 
 !lock [member|name|bots|leave]	
-Locks [member|name|bots|leaveing] 
+قفل کردن:ازاد کردن:اعضا.نام,رباتها.اسپم.تبلیغات.
 
 !unlock [member|name|bots|leave]
-Unlocks [member|name|bots|leaving]
+Unlocks 
+ازاد کردن:اعضا.نام,رباتها.اسپم.تبلیغات.تگ.چت عربی
 
 !set rules <text>
-Set <text> as rules
+متن قوانین گروه
 
 !set about <text>
-Set <text> as about
+متن درباره گروه
 
 !settings
-Returns group settings
-
+تنظیمات
 !newlink
-create/revoke your group link
+تعویض  لینک گروه
 
 !link
-returns group link
+دریافت لینک گروه
 
 !owner
-returns group owner id
+اونر گروه
 
 !setowner [id]
-Will set id as owner
+اضافه کردن ایدی به عنوان اونر
 
 !setflood [value]
-Set [value] as flood sensitivity
+کنترل میزان اسپم=کیک
 
 !stats
-Simple message statistics
+امار در پیام ساده
 
 !save [value] <text>
-Save <text> as [value]
+ذخیره یک کلمه یا جمله که در بازگشت به ان گفته میشود
 
 !get [value]
 Returns text of [value]
 
 !clean [modlist|rules|about]
-Will clear [modlist|rules|about] and set it to nil
+پاکسازی/مدیران/قوانین/موضوع
 
 !res [username]
-returns user id
+ایدی فرد  مورد نظر
 "!res @username"
 
 !log
-will return group logs
+اطلاعات گروه
 
 !banlist
-will return group ban list
+لیست افرادی که بن شده اند
 
 **U can use both "/" and "!" 
 

@@ -371,7 +371,7 @@ Commands list :
 راهنما
 
 !lock [member|name|bots|leave]	
-قفل کردن:ازاد کردن:اعضا.نام,رباتها.اسپم.تبلیغات.
+قفل کردن : اعضا .نام.عکس.رباتها.تبلیغات.اسپم.تگ.چت عربی
 
 !unlock [member|name|bots|leave]
 Unlocks 

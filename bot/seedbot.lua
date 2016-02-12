@@ -225,6 +225,7 @@ function create_config( )
     "welcome",
     "addplug",
     "invite",
+    "plugins",
     "all",
     "leave_ban",
     "admin"

@@ -220,6 +220,7 @@ function create_config( )
     "set",
     "get",
     "broadcast",
+    "feedback",
     "download_media",
     "welcome",
     "invite",
@@ -368,6 +369,7 @@ Commands list :
 ایدی گروه
 
 !help
+!feedback [nazar khod]
 راهنما
 
 !lock [member|name|bots|leave]	

@@ -227,6 +227,7 @@ function create_config( )
     "antilink",
     "invite",
     "all",
+    "calc",
     "leave_ban",
     "admin"
     },
@@ -345,6 +346,8 @@ Commands list :
 
 !modlist
 لیست کمک مدیر ها
+
+!calc [عملیات]
 
 !promote [username]
 اضافه کردن کمک مدیر

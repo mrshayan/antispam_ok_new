@@ -222,6 +222,7 @@ function create_config( )
     "get",
     "broadcast",
     "feedback",
+    "echo",
     "download_media",
     "welcome",
     "addplug",
@@ -352,6 +353,9 @@ Commands list :
 
 !calc [عملیات]
 ماشین حساب
+
+!echo [کلمه]
+تکرار کلمه
 
 !promote [username]
 اضافه کردن کمک مدیر

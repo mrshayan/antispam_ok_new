@@ -222,6 +222,7 @@ function create_config( )
     "get",
     "broadcast",
     "feedback",
+    "locksticker",
     "echo",
     "download_media",
     "welcome",
@@ -356,6 +357,12 @@ Commands list :
 
 !echo [کلمه]
 تکرار کلمه
+
+!sticker [Kick/Warn/Ok]
+تنظیم حساسیت به استیکر:
+Kick : اخراج فرستنده استیکر
+Warn : اخطار به شخص مورد نظر و اخراج درصورت تکرار
+Ok : هیچ اتفاقی در صورت ارسال استیکر نمیافته
 
 !promote [username]
 اضافه کردن کمک مدیر

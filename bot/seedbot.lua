@@ -399,6 +399,9 @@ Unlocks
 !setowner [id]
 اضافه کردن ایدی به عنوان اونر
 
+!feedback [nazarkhod]
+ارسال نظر خودتون
+
 !setflood [value]
 کنترل میزان اسپم=کیک
 

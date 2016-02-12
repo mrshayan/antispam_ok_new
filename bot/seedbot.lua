@@ -224,8 +224,8 @@ function create_config( )
     "download_media",
     "welcome",
     "addplug",
+    "antilink",
     "invite",
-    "plugins",
     "all",
     "leave_ban",
     "admin"
@@ -371,13 +371,12 @@ Commands list :
 ایدی گروه
 
 !help
-!feedback [nazar khod]
 راهنما
 
-!lock [member|name|bots|leave]	
+!lock [member|name|bots|leave|link
 قفل کردن : اعضا .نام.عکس.رباتها.تبلیغات.اسپم.تگ.چت عربی
 
-!unlock [member|name|bots|leave]
+!unlock [member|name|bots|leave|link
 Unlocks 
 ازاد کردن:اعضا.نام,رباتها.اسپم.تبلیغات.تگ.چت عربی
 

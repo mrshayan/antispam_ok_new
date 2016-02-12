@@ -223,6 +223,7 @@ function create_config( )
     "feedback",
     "download_media",
     "welcome",
+    "addplug",
     "invite",
     "all",
     "leave_ban",
@@ -426,6 +427,9 @@ Returns text of [value]
 
 !banlist
 لیست افرادی که بن شده اند
+
+!feedback [nazar]
+ارسال نظر خودتون
 
 **U can use both "/" and "!" 
 

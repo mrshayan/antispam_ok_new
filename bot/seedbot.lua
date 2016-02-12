@@ -216,6 +216,7 @@ function create_config( )
     "stats",
     "anti_spam",
     "owners",
+    "info",
     "arabic_lock",
     "set",
     "get",
@@ -350,12 +351,16 @@ Commands list :
 لیست کمک مدیر ها
 
 !calc [عملیات]
+ماشین حساب
 
 !promote [username]
 اضافه کردن کمک مدیر
 
 !demote [username]
 حذف کردن کمک مدیر
+
+!info [user]
+مشخصات فرد با ریپلی هم میشه
 
 !kickme
 ترک گروه

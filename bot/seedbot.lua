@@ -225,6 +225,7 @@ function create_config( )
     "welcome",
     "addplug",
     "antilink",
+    "lockchat",
     "invite",
     "all",
     "calc",
@@ -335,6 +336,7 @@ Commands list :
 !kick [username|id]
 شخص مورد نظر از گروه اخراج میشود
 
+
 !ban [ username|id]
 شخص مورد نظر از گروه تحریم میشود
 
@@ -376,10 +378,10 @@ Commands list :
 !help
 راهنما
 
-!lock [member|name|bots|leave|link
+!lock [member|name|bots|leave|link|chat
 قفل کردن : اعضا .نام.عکس.رباتها.تبلیغات.اسپم.تگ.چت عربی
 
-!unlock [member|name|bots|leave|link
+!unlock [member|name|bots|leave|link|chat
 Unlocks 
 ازاد کردن:اعضا.نام,رباتها.اسپم.تبلیغات.تگ.چت عربی
 

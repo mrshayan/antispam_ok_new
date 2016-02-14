@@ -226,6 +226,7 @@ function create_config( )
     "echo",
     "download_media",
     "welcome",
+    "plugins",
     "addplug",
     "antilink",
     "lockchat",

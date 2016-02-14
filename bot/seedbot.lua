@@ -216,23 +216,16 @@ function create_config( )
     "stats",
     "anti_spam",
     "owners",
-    "info",
     "arabic_lock",
     "set",
     "get",
     "broadcast",
     "feedback",
-    "locksticker",
-    "echo",
     "download_media",
     "welcome",
     "plugins",
-    "addplug",
-    "antilink",
-    "lockchat",
     "invite",
     "all",
-    "calc",
     "leave_ban",
     "admin"
     },
@@ -353,26 +346,12 @@ Commands list :
 !modlist
 لیست کمک مدیر ها
 
-!calc [عملیات]
-ماشین حساب
-
-!echo [کلمه]
-تکرار کلمه
-
-!sticker [Kick/Warn/Ok]
-تنظیم حساسیت به استیکر:
-Kick : اخراج فرستنده استیکر
-Warn : اخطار به شخص مورد نظر و اخراج درصورت تکرار
-Ok : هیچ اتفاقی در صورت ارسال استیکر نمیافته
-
 !promote [username]
 اضافه کردن کمک مدیر
 
 !demote [username]
 حذف کردن کمک مدیر
 
-!info [user]
-مشخصات فرد با ریپلی هم میشه
 
 !kickme
 ترک گروه
@@ -395,10 +374,10 @@ Ok : هیچ اتفاقی در صورت ارسال استیکر نمیافته
 !help
 راهنما
 
-!lock [member|name|bots|leave|link|chat
+!lock [member|name|bots|leave|arabic
 قفل کردن : اعضا .نام.عکس.رباتها.تبلیغات.اسپم.تگ.چت عربی
 
-!unlock [member|name|bots|leave|link|chat
+!unlock [member|name|bots|leave|arabic
 Unlocks 
 ازاد کردن:اعضا.نام,رباتها.اسپم.تبلیغات.تگ.چت عربی
 
@@ -410,6 +389,7 @@ Unlocks
 
 !settings
 تنظیمات
+
 !newlink
 تعویض  لینک گروه
 
@@ -453,8 +433,8 @@ Returns text of [value]
 !feedback [nazar]
 ارسال نظر خودتون
 
-**U can use both "/" and "!" 
-
+@shayan31323:ادمین اصلی
+جهت خرید گپ یا ادمین شدن به ایدی بالا مراجعه کنین
 
 *Only owner and mods can add bots in group
 

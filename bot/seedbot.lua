@@ -222,6 +222,7 @@ function create_config( )
     "broadcast",
     "feedback",
     "download_media",
+    "hello",
     "welcome",
     "plugins",
     "invite",

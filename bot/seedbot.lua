@@ -224,7 +224,6 @@ function create_config( )
     "download_media",
     "hello",
     "welcome",
-    "plugins",
     "invite",
     "all",
     "leave_ban",
@@ -329,17 +328,17 @@ This command will send text to [group_id]
 *Only admins and sudo can use res, setowner, commands
 ]],
     help_text = [[
-Commands list :
+:لیست دستورات
 
-!kick [username|id]
-شخص مورد نظر از گروه اخراج میشود
+!kick [ایدی,کد,ریپلای]
+شخص مورد نظر از گزوه اخراج میشود
 
 
-!ban [ username|id]
-شخص مورد نظر از گروه تحریم میشود
+!ban [ایدی,کد,ریپلای]
+شخص مورد نظر از گزوه تحریم میشود
 
-!unban [id]
-شخص مورد نظر از تحریم خارج شود
+!unban [کد]
+شخص مورد نظر از تحریم خارج میشود
 
 !who
 لیست اعضا
@@ -347,12 +346,11 @@ Commands list :
 !modlist
 لیست کمک مدیر ها
 
-!promote [username]
-اضافه کردن کمک مدیر
+!promote [ریپلای,یوزر نیم]
 
-!demote [username]
+
+!demote [ریپلای , یوزر نیم]
 حذف کردن کمک مدیر
-
 
 !kickme
 ترک گروه
@@ -361,81 +359,69 @@ Commands list :
 درباره گروه
 
 !setphoto
-عوض کردن عکس گروه
+اضافه کردن و قفل کردن عکس گروه
 
-!setname [name]
+!setname [نام]
 عوض کردن نام گروه
 
 !rules
 قوانین گروه
 
 !id
-ایدی گروه
+بازگرداندن کد  گروه یا افراد
 
 !help
-راهنما
 
-!lock [member|name|bots|leave|arabic
-قفل کردن : اعضا .نام.عکس.رباتها.تبلیغات.اسپم.تگ.چت عربی
+!lock [اعضا,نام,رباتها,اسپم,تبلیغات,تگ,چت عربی]	
+[قفل :[اعضا,نام,رباتها,اسپم,تبلیغات,تگ,چت عربی	
 
-!unlock [member|name|bots|leave|arabic
-Unlocks 
-ازاد کردن:اعضا.نام,رباتها.اسپم.تبلیغات.تگ.چت عربی
+!unlock [اعضا,نام,رباتها,اسپم,تبلیغات,تگ,چت عربی]	
+[ازد کردن :[اعضا,نام,رباتها,اسپم,تبلیغات,تگ,چت عربی	
 
-!set rules <text>
-متن قوانین گروه
+!set rules <متن>
+متن قوانین  قوانین گروه
 
-!set about <text>
+!set about <متن>
 متن درباره گروه
 
 !settings
 تنظیمات
 
-!newlink
-تعویض  لینک گروه
+!newlink لینک جدید
 
 !link
-دریافت لینک گروه
+لینک گروه
 
 !owner
-اونر گروه
+نمایش ایدی مدیر گروه
 
-!setowner [id]
-اضافه کردن ایدی به عنوان اونر
+!setowner [نماش ایدی به عنوان مدیر گروه]
+Will set id as owner
 
-!feedback [nazarkhod]
-ارسال نظر خودتون
-
-!setflood [value]
-کنترل میزان اسپم=کیک
+!setflood [تعداد]
+محدودیت تعداد اسپم=کیک
 
 !stats
 امار در پیام ساده
 
-!save [value] <text>
-ذخیره یک کلمه یا جمله که در بازگشت به ان گفته میشود
+!save [word] [returntext]
+ذخیره یک کلمه و جمله که در بازگشت به ان گفته میشود
 
 !get [value]
 Returns text of [value]
 
-!clean [modlist|rules|about]
-پاکسازی/مدیران/قوانین/موضوع
-
-!res [username]
-ایدی فرد  مورد نظر
+!clean [ادمین ها|قوانین|درباره گروه
+پاکسازی: ادمین ها ,قوانین,درباره گروه
+!res [یوزر نیم]
+بازگرداندن کد فرد
 "!res @username"
 
 !log
 اطلاعات گروه
 
 !banlist
-لیست افرادی که بن شده اند
+لیست افرادی که تحریم شده اند
 
-!feedback [nazar]
-ارسال نظر خودتون
-
-@shayan31323:ادمین اصلی
-جهت خرید گپ یا ادمین شدن به ایدی بالا مراجعه کنین
 
 *Only owner and mods can add bots in group
 

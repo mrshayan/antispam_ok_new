@@ -224,6 +224,7 @@ function create_config( )
     "download_media",
     "hello",
     "welcome",
+    "info",
     "invite",
     "all",
     "leave_ban",

@@ -227,6 +227,7 @@ function create_config( )
     "info",
     "invite",
     "all",
+    "boobs",
     "leave_ban",
     "admin"
     },
